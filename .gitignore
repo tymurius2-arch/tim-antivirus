@@ -1,0 +1,20 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+
+# бинарники ClamAV скачиваются скриптом tools/get_clamav.ps1
+vendor/
+# датасет ClaMP скачивается в tools/train_model.py (модель уже лежит в timav/resources)
+data/
+
+# скриншоты: в репозитории только отобранные (без путей и программ конкретного ПК)
+docs/screenshots/*
+!docs/screenshots/ru_dark_home.png
+!docs/screenshots/ru_dark_scan.png
+!docs/screenshots/ru_dark_ai.png
+!docs/screenshots/ru_dark_settings.png
+!docs/screenshots/en_light_home.png

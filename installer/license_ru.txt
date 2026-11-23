@@ -1,0 +1,19 @@
+Tim Antivirus 1.0.0
+
+Tim Antivirus — бесплатное антивирусное приложение для Windows 10/11.
+
+ВАЖНО
+• Tim Antivirus работает вместе со встроенной защитой Microsoft Defender и НЕ отключает её.
+  Рекомендуется держать Microsoft Defender включённым.
+• Программа предоставляется «как есть», без каких-либо гарантий. Ни один антивирус не
+  обеспечивает 100% защиты.
+• Облачный AI-анализ (необязательный) отправляет в Claude API (Anthropic) только статические
+  признаки и выборку строк выбранного файла, но не сам файл. Функция выключена по умолчанию
+  и работает только с вашим API-ключом.
+
+СТОРОННИЕ КОМПОНЕНТЫ
+• ClamAV® — антивирусный движок с открытым исходным кодом, © Cisco Systems, Inc.
+  Распространяется на условиях GNU General Public License v2 (см. clamav\COPYING.txt).
+  Исходный код: https://github.com/Cisco-Talos/clamav
+• Qt / PySide6 — LGPL v3, © The Qt Company.
+• watchdog, psutil, pefile, anthropic — лицензии Apache 2.0 / BSD / MIT.
